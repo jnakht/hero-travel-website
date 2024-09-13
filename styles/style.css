@@ -1,0 +1,303 @@
+/* google fonts: mulish */
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+}
+
+body {
+    background: #FFF;
+    font-family: "Mulish", sans-serif;
+}
+
+.common-title {
+    color: #131318;
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+.common-paragraph {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.common-button {
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FF5400;
+    border: none;
+    color: #FFF;
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 800;
+}
+
+.website-container {
+    width: 81vw;
+    margin: 0 auto;
+}
+
+#company-logo {
+    width: 13%;
+    /* border: 2px solid black; */
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.nav {
+    width: 100%;
+    height: 80px;
+    margin: 50px auto;
+}
+
+.nav .company-title {
+    color: #131318;
+    font-size: 2.25rem;
+    font-weight: 800;
+    line-height: 80px;
+}
+
+.nav #special-text {
+    color: #FF5400;
+}
+
+.nav .logo-title-container {
+    display: inline-flex;
+    gap: 15px;
+    align-items: center;
+    height: 80px;
+}
+
+.nav ul {
+    list-style: none;
+    float: right;
+}
+
+.nav ul a {
+    text-decoration: none;
+    color: #424247;
+    font-size: 1.125rem;
+    font-weight: 400px;
+}
+
+.nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin-left: 30px;
+}
+
+.nav #check {
+    display: none;
+}
+
+.nav .hambarger {
+    font-size: 36px;
+    color: #131318;
+    float: right;
+    margin-left: 30px;
+    line-height: 80px;
+    display: none;
+}
+
+#check:checked~ul {
+    left: 0;
+}
+
+.banner {
+    text-align: center;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1)), url('../resources/Group\ 13\ \(1\)\ \(1\).png');
+    background-size: cover;
+    height: 500px;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    width: 100%;
+
+}
+
+.banner .banner-title {
+    color: #FFF;
+    font-size: 4rem;
+    font-weight: 800;
+    padding-top: 100px;
+}
+
+.banner .banner-paragraph {
+    color: #FFF;
+    font-size: 1rem;
+    font-weight: 400;
+    padding-top: 23px;
+}
+
+.banner .form-box {
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FFF;
+    border: none;
+    padding: 15px 15px;
+    color: rgba(19, 19, 24, 0.50);
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.banner .form-box:focus {
+    outline: none;
+}
+
+.banner #magnifying-glass {
+    margin-right: 8px;
+}
+
+.banner .search-button {
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+}
+
+.banner .banner-form {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 2px solid black;
+    width: 55.55vw;
+    margin: 0 auto;
+    padding: 16px;
+    border: none;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    margin-top: 47px;
+}
+
+.main .popular-tours {
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    gap: 50px;
+    align-items: center;
+}
+
+.main .popular-tours .description {
+    width: calc((100% - 50px) / 2);
+    /* padding: 10px; */
+}
+
+.main .popular-tours .description .common-title {
+    margin-top: 0;
+    margin-bottom: 24px;
+}
+
+.main .popular-tours .description .heading {
+    margin-top: 0;
+    margin-bottom: 24px;
+}
+
+.main .popular-tours .description ul {
+    margin-top: 0;
+    margin-bottom: 24px;
+}
+
+.main .popular-tours .description li {
+    margin-top: 0;
+    margin-bottom: 16px;
+    margin-left: 20px;
+}
+
+.main .popular-tours .description .conclusion {
+    margin-bottom: 24px;
+    margin-top: 0;
+}
+
+.main .popular-tours .image {
+    width: calc((100% - 50px) / 2);
+}
+.destination-description {
+    text-align: center;
+    max-width: 643px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+.destination-description .common-title {
+    margin-bottom: 22px;
+}
+
+.destination {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    row-gap: 5px;
+    column-gap: 10px;
+}
+
+.images-1 {
+    grid-column: 1/span 6;
+    grid-row: 1/span 1;
+}
+.images-2 {
+    grid-column: 7/span 6;
+    grid-row: 1/span 1;
+}
+.images-3 {
+    grid-column: 1/span 4;
+    grid-row: 2/span 1;
+}
+.images-4 {
+    grid-column: 5/span 5;
+    grid-row: 2/span 1;
+}
+.images-5 {
+    grid-column: 10/span 3;
+    grid-row: 2/span 1;
+}
+.images-6 {
+    grid-column: 1/span 5;
+    grid-row: 3/span 1;
+}
+.images-7 {
+    grid-column: 6/span 7;
+    grid-row: 3/span 1;
+}
+.destination .images {
+    position: relative;
+}
+.destination .place-text {
+    position: absolute;
+    color: #FFF;
+    font-size: 1.75rem;
+    font-weight: 800;
+}
+.destination .text-1 {
+    top: 45%;
+    left: 39%;
+}
+.destination .text-2 {
+    top: 45%;
+    left: 39%;
+}
+.destination .text-3 {
+    top: 42%;
+    left: 36%;
+}
+.destination .text-4 {
+    top: 41%;
+    left: 30%;
+}
+.destination .text-5 {
+    top: 41%;
+    left: 32%;
+}
+.destination .text-6 {
+    top: 41%;
+    left: 32%;
+}
+.destination .text-7 {
+    top: 42%;
+    left: 36%;
+}

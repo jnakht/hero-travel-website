@@ -3,19 +3,112 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Wander Aesthetics</title>
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="styles/mobile-responsive.css">
 </head>
 <body>
-    <header>
+    <div class="website-container">
+        <header class="header">
+            <nav class="nav">
+                <input type="checkbox" name="" id="check">
+                <label class="hambarger" for="check"><i class="fa-solid fa-bars"></i></label>
+                <label class="logo-title-container">
+                    <img id="company-logo" src="resources/Group 40071 (2).png" alt="">
+                <label class="company-title" for="">Wander <span id="special-text">Aesthetics</span></label>
+                </label>
+                <ul>
+                    <li><a style="color:  #FF5400;" href="">Home</a></li>
+                    <li><a href="">Packages</a></li>
+                    <li><a href="">Testimonial</a></li>
+                    <li><a href="">Blog</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="banner">
+                <div class="banner-description">
+                    <h1 class="banner-title">Explore Your Travel</h1>
+                    <p class="banner-paragraph">Find the perfect destination, the best time to go, and start planning your dream getaway. <br> Select your preferences and explore now!</p>
+                </div>
+                <form action="" class="banner-form">
+                    <input  class="form-box" type="text" placeholder="Where go" name="" id="">
+                    <select class="form-box" name="" id="">
+                        <option value="" selected disabled>When</option>
+                        <option value="">Today</option>
+                        <option value="">This Weekend</option>
+                        <option value="">This Month</option>
+                        <option value="">This Year</option>
+                    </select>
+                    <select class="form-box" name="" id="">
+                        <option value="" selected disabled>Select Type</option>
+                        <option value="">One-Way</option>
+                        <option value="">Round-Trip</option>
+                        <option value="">Multi-City</option>
+                    </select>
+                    <button class="form-box search-button" type="submit">
+                        <i id="magnifying-glass" class="fa-solid fa-magnifying-glass"></i> Find Now
+                    </button>
+                </form>
+            </div>
+        </header>
+        <main class="main">
+            <section class="popular-tours">
+                <div class="description">
+                    <h2 class="common-title">Our Popular Tours</h2>
+                    <p class="common-paragraph heading">Explore unique destinations around the world with our exclusive tours that are curated to provide memorable and enriching travel experiences, offering both adventure and relaxation.
+                    </p>
+                    <ul>
+                        <li class="common-paragraph">Hike through stunning landscapes and conquer towering peaks.</li>
+                        <li class="common-paragraph">Dive into the rich history and vibrant cultures of iconic cities.</li>
+                        <li class="common-paragraph">Relax on pristine shores with crystal-clear waters and endless sunshine.</li>
+                    </ul>
+                    <p class="common-paragraph conclusion">Let us guide you through an unforgettable travel experience, crafted to meet your unique sense of adventure and relaxation.</p>
+                    <button class="common-button">Read More</button>
+                </div>
+                <div class="image">
+                    <img src="resources/Rectangle 4.png" alt="">
+                </div>
+            </section>
+            <section class="destination-description">
+                <h1 class="common-title">Choose Your Destination</h1>
+                <p class="common-paragraph">Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra odio sit massa. Sodales dictumst nec nibh pellentesque.</p>
+            </section>
+            <section class="destination">
+                <div class="images-1  images">
+                    <img class="image-1 image" src="resources/Rectangle 5.png" alt=""> 
+                    <div class="place-text text-1">Maldives</div>
+                </div>
+                <div class="images-2 images">
+                    <img class="image-2 image" src="resources/Rectangle 8.png" alt="">
+                    <div class="place-text text-2">Indonesia</div>
+                </div>
 
-    </header>
-    <main>
-
-    </main>
-    <footer>
-        
-    </footer>
+                <div class="images-3 images">
+                    <img class="image-3 image" src="resources/Rectangle 6.png" alt="">
+                    <div class="place-text text-3">Srilanka</div>
+                </div>
+                <div class="images-4 images">
+                    <img class="image-4 image" src="resources/Rectangle 7.png" alt="">
+                    <div class="place-text text-4">North America</div>
+                </div>
+                <div class="images-5 images">
+                    <img class="image-5 image" src="resources/Rectangle 9.png" alt="">
+                    <div class="place-text text-5">Kashmir</div>
+                </div>
+                <div class="images-6 images">
+                    <img class="image-6 image" src="resources/Rectangle 11.png" alt="">
+                    <div class="place-text text-6">Bangladesh</div>
+                </div>
+                <div class="images-7 images">
+                    <img lass="image-7 image" src="resources/Rectangle 10.png" alt="">
+                    <div class="place-text text-7">Bandarban</div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+    
+        </footer>
+    </div>
 </body>
 </html>
