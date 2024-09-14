@@ -228,76 +228,109 @@ body {
     margin-bottom: 22px;
 }
 
+.image-one,
+.image-two,
+.image-three,
+.image-four,
+.image-five,
+.image-six, 
+.image-seven {
+   
+     height: 271px; 
+}
+.image-one img, 
+.image-two img,
+.image-three img,
+.image-four img,
+.image-five img,
+.image-six img,
+.image-seven img
+{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 16px;
+}
+
 .destination {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: repeat(3, 1fr);
-    row-gap: 5px;
-    column-gap: 10px;
+    gap: 10px;
 }
-
-.images-1 {
+.destination .images-1 {
     grid-column: 1/span 6;
     grid-row: 1/span 1;
+    height: 271px;
 }
-.images-2 {
+.destination .images-2 {
     grid-column: 7/span 6;
     grid-row: 1/span 1;
+    height: 271px;
 }
-.images-3 {
+.destination .images-3 {
     grid-column: 1/span 4;
     grid-row: 2/span 1;
+    height: 271px;
 }
-.images-4 {
+.destination .images-4 {
     grid-column: 5/span 5;
     grid-row: 2/span 1;
+    height: 271px;
 }
-.images-5 {
+.destination .images-5 {
     grid-column: 10/span 3;
     grid-row: 2/span 1;
+    height: 271px;
 }
-.images-6 {
+.destination .images-6 {
     grid-column: 1/span 5;
     grid-row: 3/span 1;
+    height: 271px;
 }
-.images-7 {
+.destination .images-7 {
     grid-column: 6/span 7;
     grid-row: 3/span 1;
+    height: 271px;
 }
+
+.place-text {
+    color: #FFF;
+    font-size: 1.75rem;
+    font-weight: 800;
+}
+
 .destination .images {
     position: relative;
 }
 .destination .place-text {
     position: absolute;
-    color: #FFF;
-    font-size: 1.75rem;
-    font-weight: 800;
 }
 .destination .text-1 {
-    top: 45%;
-    left: 39%;
+    top: 120px;
+    left: 230px;
 }
 .destination .text-2 {
-    top: 45%;
-    left: 39%;
+    top: 120px;
+    left: 230px;
 }
 .destination .text-3 {
-    top: 42%;
-    left: 36%;
+    top: 120px;
+    left: 140px;
 }
 .destination .text-4 {
-    top: 41%;
-    left: 30%;
+    top: 120px;
+    left: 150px;
 }
 .destination .text-5 {
-    top: 41%;
-    left: 32%;
+    top: 120px;
+    left: 80px;
 }
 .destination .text-6 {
-    top: 41%;
-    left: 32%;
+    top: 120px;
+    left: 160px;
 }
 .destination .text-7 {
-    top: 42%;
-    left: 36%;
+    top: 120px;
+    left: 260px;
 }
