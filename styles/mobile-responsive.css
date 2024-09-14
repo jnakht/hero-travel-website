@@ -271,23 +271,91 @@
         flex-wrap: wrap;
         gap: 5px;
     }
+
     .deals-and-discounts .description-part .second-title {
         font-size: 1.25rem;
     }
+
     .deals-and-discounts .image .description-part .common-paragraph {
         font-size: 0.875rem;
     }
-    .deals-and-discounts .description-part .price  {
+
+    .deals-and-discounts .description-part .price {
         font-size: 1rem;
     }
+
     .deals-and-discounts .image .description-part .common-button {
         width: 120px;
         height: 40px;
     }
+
     .deals-and-discounts .image .second-title {
         margin-top: 5px;
         margin-bottom: 5px;
     }
 
 
+    .documentary {
+        flex-direction: column;
+        gap: 10px;
+        margin-bottom: 24px;
+    }
+
+    .deals-and-discounts {
+        margin: 24px auto;
+    }
+
+    .documentary .description {
+        max-width: 100%;
+    }
+
+    .documentary .video {
+        width: 100%;
+    }
+
+    .sign-up {
+        flex-direction: column;
+    }
+
+    .sign-up .left,
+    .sign-up .right {
+        width: 100%;
+    }
+
+    .sign-up .left input[type="text"],
+    .sign-up .left input[type="email"],
+    .sign-up .left .subscribe-button {
+        width: 100%;
+    }
+
+    .sign-up .left .subscribe-button {
+        margin-bottom: 10px;
+    }
+
+    footer .footer-container {
+        width: 81vw;
+    }
+
+    .sign-up .right .save-up {
+        border-radius: 10px;
+        width: 214px;
+        height: 79px;
+        transform: rotate(-19.628deg);
+        position: absolute;
+        bottom: 32px;
+        left: 60px;
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .sign-up .right .save-up p {
+        font-size: 15.854px;
+        font-weight: 400;
+    }
+
+    .sign-up .right .save-up h2 {
+        font-size: 21.138px;
+        font-weight: 800;
+
+    }
 }

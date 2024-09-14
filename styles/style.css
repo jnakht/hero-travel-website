@@ -552,6 +552,12 @@ body {
     margin-bottom: 100px;
 }
 
+.documentary .description {
+    max-width: calc((100% - 35px) / 2);
+}
+.documentary .video {
+    width: calc((100% - 35px) / 2);
+}
 
 .documentary .description .common-title {
     margin-bottom: 24px;
