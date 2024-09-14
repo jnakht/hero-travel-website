@@ -218,12 +218,14 @@ body {
 .main .popular-tours .image {
     width: calc((100% - 50px) / 2);
 }
+
 .destination-description {
     text-align: center;
     max-width: 643px;
     margin: 0 auto;
     margin-bottom: 40px;
 }
+
 .destination-description .common-title {
     margin-bottom: 22px;
 }
@@ -233,19 +235,19 @@ body {
 .image-three,
 .image-four,
 .image-five,
-.image-six, 
+.image-six,
 .image-seven {
-   
-     height: 271px; 
+
+    height: 271px;
 }
-.image-one img, 
+
+.image-one img,
 .image-two img,
 .image-three img,
 .image-four img,
 .image-five img,
 .image-six img,
-.image-seven img
-{
+.image-seven img {
     height: 100%;
     width: 100%;
     object-fit: cover;
@@ -258,36 +260,43 @@ body {
     grid-template-rows: repeat(3, 1fr);
     gap: 10px;
 }
+
 .destination .images-1 {
     grid-column: 1/span 6;
     grid-row: 1/span 1;
     height: 271px;
 }
+
 .destination .images-2 {
     grid-column: 7/span 6;
     grid-row: 1/span 1;
     height: 271px;
 }
+
 .destination .images-3 {
     grid-column: 1/span 4;
     grid-row: 2/span 1;
     height: 271px;
 }
+
 .destination .images-4 {
     grid-column: 5/span 5;
     grid-row: 2/span 1;
     height: 271px;
 }
+
 .destination .images-5 {
     grid-column: 10/span 3;
     grid-row: 2/span 1;
     height: 271px;
 }
+
 .destination .images-6 {
     grid-column: 1/span 5;
     grid-row: 3/span 1;
     height: 271px;
 }
+
 .destination .images-7 {
     grid-column: 6/span 7;
     grid-row: 3/span 1;
@@ -303,34 +312,399 @@ body {
 .destination .images {
     position: relative;
 }
+
 .destination .place-text {
     position: absolute;
 }
+
 .destination .text-1 {
     top: 120px;
     left: 230px;
 }
+
 .destination .text-2 {
     top: 120px;
     left: 230px;
 }
+
 .destination .text-3 {
     top: 120px;
     left: 140px;
 }
+
 .destination .text-4 {
     top: 120px;
     left: 150px;
 }
+
 .destination .text-5 {
     top: 120px;
     left: 80px;
 }
+
 .destination .text-6 {
     top: 120px;
     left: 160px;
 }
+
 .destination .text-7 {
     top: 120px;
     left: 260px;
+}
+
+.why-chose-us {
+    width: 81vw;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+
+.why-chose-us .common-title {
+    padding-bottom: 24px;
+}
+
+.why-chose-us-blocks .block-one {
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    height: 280px;
+    width: 39vw;
+    padding: 30px;
+}
+
+.why-chose-us-blocks .block-two {
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+    height: 280px;
+    width: 39vw;
+    padding: 30px;
+}
+
+.why-chose-us-blocks .block-three {
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    height: 280px;
+    width: 39vw;
+    padding: 30px;
+    margin: 24px auto;
+}
+
+.why-chose-us-blocks .part-one {
+    display: flex;
+    gap: 23px;
+}
+
+.why-chose-us-blocks .part-one .block-one .image,
+.why-chose-us-blocks .part-one .block-two .image,
+.why-chose-us-blocks .part-two .block-three .image {
+    width: 70px;
+    margin-bottom: 30px;
+}
+
+.why-chose-us-blocks .block-title {
+    color: #131318;
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin-bottom: 15px;
+}
+
+.why-chose-us-blocks .common-paragraph {
+    padding-bottom: 30px;
+}
+
+.deals-and-discounts {
+    margin: 100px 0;
+}
+
+.deals-and-discounts .description {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.deals-and-discounts .description .common-title {
+    margin-bottom: 24px;
+}
+
+.deals-and-discounts .description .common-paragraph {
+    margin-bottom: 40px;
+}
+
+.deals-and-discounts .image .icons {
+    color: #FF5400;
+}
+
+.deals-and-discounts .image .small-tags {
+    display: flex;
+    /* border: 2px solid red; */
+    gap: 20px;
+}
+
+.deals-and-discounts .description-part .second-title {
+    color: #131318;
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+.deals-and-discounts .description-part .price {
+    color: #FF5400;
+    font-size: 1.25rem;
+    font-weight: 800;
+}
+
+.deals-and-discounts .image .white-part-container-one,
+.deals-and-discounts .image .white-part-container-two,
+.deals-and-discounts .image .white-part-container-three {
+    width: 40.20vw;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    /* border: 2px solid red; */
+
+}
+
+.deals-and-discounts .image .white-part-container-one {
+    padding: 50px;
+    float: right;
+    margin-top: 55px;
+    margin-right: 55px;
+}
+
+.deals-and-discounts .image .white-part-container-two {
+    padding: 50px;
+    float: left;
+    margin-top: 55px;
+    margin-left: 55px;
+    /* position: relative; */
+}
+
+.deals-and-discounts .image .white-part-container-three {
+    padding: 50px;
+    float: right;
+    margin-top: 55px;
+    margin-right: 55px;
+}
+
+.deals-and-discounts .image .image-1,
+.deals-and-discounts .image .image-3 {
+    background-image: url('../resources/Group\ 39.png');
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 16px;
+    margin-bottom: 24px;
+    object-fit: cover;
+}
+
+.deals-and-discounts .image .image-2 {
+    background-image: url('../resources/Group\ 40.png');
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 16px;
+    margin-bottom: 24px;
+}
+
+.deals-and-discounts .image .small-tags {
+    margin-bottom: 23px;
+}
+
+.deals-and-discounts .image .second-title {
+    margin-bottom: 16px;
+}
+
+.deals-and-discounts .image .description-part .common-paragraph {
+    margin-bottom: 16px;
+}
+
+.deals-and-discounts .image .description-part .price {
+    margin-bottom: 24px;
+}
+
+.deals-and-discounts .all-package-button {
+    color: #FFF;
+    font-size: 1.25rem;
+    font-weight: 800;
+    width: 210px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FF5400;
+    border: none;
+    margin: 30px auto;
+}
+
+.deals-and-discounts .button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.documentary {
+    display: flex;
+    gap: 35px;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+
+.documentary .description .common-title {
+    margin-bottom: 24px;
+}
+
+.documentary .description .common-paragraph {
+    margin-bottom: 24px;
+}
+
+.documentary .description ul {
+    margin-left: 30px;
+}
+
+.documentary .description li {
+    margin-bottom: 16px;
+}
+
+.sign-up {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.sign-up .left .title {
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: 16px;
+}
+
+.sign-up .left .common-paragraph {
+    margin-bottom: 24px;
+}
+
+.sign-up .left input[type="text"] {
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    width: 393px;
+    height: 52px;
+    border: none;
+    padding: 10px;
+    color: rgba(19, 19, 24, 0.30);
+    font-size: 16px;
+    font-weight: 400;
+    display: block;
+    margin-bottom: 16px;
+}
+
+.sign-up .left input[type="email"] {
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    width: 393px;
+    height: 52px;
+    color: rgba(19, 19, 24, 0.30);
+    font-size: 16px;
+    font-weight: 400;
+    display: block;
+    margin-bottom: 24px;
+    padding: 10px;
+}
+
+.sign-up .left .subscribe-button {
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 800;
+    width: 393px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FF5400;
+    border: none;
+}
+
+.sign-up .right {
+    background-image: url('../resources/Rectangle\ 8\ \(1\).png');
+    width: calc((100% - 24px) / 2);
+    height: 422px;
+    border-radius: 15px;
+    position: relative;
+}
+
+.sign-up .right .save-up {
+    border-radius: 16px;
+    background: #FF5400;
+    width: 324px;
+    height: 120px;
+    transform: rotate(-19.628deg);
+    position: absolute;
+    bottom: 50px;
+    left: 275px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.sign-up .right .save-up p {
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.sign-up .right .save-up h2 {
+    color: #FFF;
+    font-size: 32px;
+    font-weight: 800;
+}
+
+footer .company-logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+footer .company-logo {
+    width: 40px;
+    margin-right: 10px;
+}
+
+footer .company-name {
+    color: #131318;
+    font-size: 32px;
+    font-weight: 800;
+}
+
+footer .special-text {
+    color: #FF5400;
+}
+
+
+
+footer {
+    width: 100vw;
+    height: 502px;
+    background: rgba(19, 19, 24, 0.05);
+    text-align: center;
+}
+.footer-container {
+    max-width: 769px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding-top: 165px;
+}
+.footer-container .common-paragraph {
+    margin-bottom: 20px;
+}
+.footer-container .icons-container {
+    margin-bottom: 50px;
+}
+.footer-container hr {
+    margin-bottom: 50px;
+}
+.footer-container .icons-container .icon {
+    margin-right: 20px;
 }

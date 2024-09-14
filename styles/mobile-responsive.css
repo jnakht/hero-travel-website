@@ -148,17 +148,19 @@
         display: flex;
         flex-direction: column;
         gap: 5px;
-    } 
+    }
+
     .image-one,
     .image-two,
     .image-three,
     .image-four,
     .image-five,
-    .image-six, 
+    .image-six,
     .image-seven {
-       
-         height: 175px; 
+
+        height: 175px;
     }
+
     .destination .images-1,
     .destination .images-2,
     .destination .images-3,
@@ -170,41 +172,122 @@
     }
 
 
-    
-.place-text {
-    color: #FFF;
-    font-size: 1.25rem;
-    font-weight: 700;
-}
 
-.destination .text-1 {
-    top: 70px;
-    left: 110px;
-}
-.destination .text-2 {
-    top: 75px;
-    left: 110px;
-}
-.destination .text-3 {
-    top: 70px;
-    left: 110px;
-}
-.destination .text-4 {
-    top: 80px;
-    left: 80px;
-}
-.destination .text-5 {
-    top: 70px;
-    left: 110px;
-}
-.destination .text-6 {
-    top: 70px;
-    left: 100px;
-}
-.destination .text-7 {
-    top: 70px;
-    left: 100px;
-}
+    .place-text {
+        color: #FFF;
+        font-size: 1.25rem;
+        font-weight: 700;
+    }
+
+    .destination .text-1 {
+        top: 70px;
+        left: 110px;
+    }
+
+    .destination .text-2 {
+        top: 75px;
+        left: 110px;
+    }
+
+    .destination .text-3 {
+        top: 70px;
+        left: 110px;
+    }
+
+    .destination .text-4 {
+        top: 80px;
+        left: 80px;
+    }
+
+    .destination .text-5 {
+        top: 70px;
+        left: 110px;
+    }
+
+    .destination .text-6 {
+        top: 70px;
+        left: 100px;
+    }
+
+    .destination .text-7 {
+        top: 70px;
+        left: 100px;
+    }
+
+    .why-chose-us-blocks .part-one {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .why-chose-us-blocks .block-one,
+    .why-chose-us-blocks .block-two,
+    .why-chose-us-blocks .block-three {
+        height: auto;
+        width: 100%;
+    }
+
+    .why-chose-us .common-title {
+        padding-bottom: 10px;
+    }
+
+    .why-chose-us {
+        margin-top: 24px;
+        margin-bottom: 24px;
+    }
+
+    .why-chose-us-blocks .part-one .block-one .image,
+    .why-chose-us-blocks .part-one .block-two .image,
+    .why-chose-us-blocks .part-two .block-three .image {
+        margin-bottom: 16px;
+    }
+
+    .deals-and-discounts .image .white-part-container-one,
+    .deals-and-discounts .image .white-part-container-two,
+    .deals-and-discounts .image .white-part-container-three {
+        width: 90%;
+        /* height: 50%; */
+        margin: 0;
+        padding: 15px;
+        float: none;
+        margin: 0 auto;
+        position: absolute;
+        bottom: 10px;
+        left: 0;
+        right: 0;
+    }
+
+    .small-tags {
+        flex-wrap: wrap;
+    }
+
+    .deals-and-discounts .image .image-1,
+    .deals-and-discounts .image .image-2,
+    .deals-and-discounts .image .image-3 {
+        background-position: center;
+        position: relative;
+    }
+
+    .deals-and-discounts .image .small-tags {
+        flex-wrap: wrap;
+        gap: 5px;
+    }
+    .deals-and-discounts .description-part .second-title {
+        font-size: 1.25rem;
+    }
+    .deals-and-discounts .image .description-part .common-paragraph {
+        font-size: 0.875rem;
+    }
+    .deals-and-discounts .description-part .price  {
+        font-size: 1rem;
+    }
+    .deals-and-discounts .image .description-part .common-button {
+        width: 120px;
+        height: 40px;
+    }
+    .deals-and-discounts .image .second-title {
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
 
 
 }
